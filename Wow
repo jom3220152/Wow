@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8" />
+  <title>กดเลย!!</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(135deg, #ff00cc, #3333ff);
+      color: #fff700;
+      font-size: 36px;
+      font-family: 'Comic Sans MS', cursive, sans-serif;
+      text-align: center;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      animation: rotateColors 10s infinite linear;
+    }
+
+    @keyframes rotateColors {
+      0% { background: linear-gradient(135deg, #ff00cc, #3333ff); }
+      25% { background: linear-gradient(135deg, #33ff00, #ffcc00); }
+      50% { background: linear-gradient(135deg, #00ffff, #ff0099); }
+      75% { background: linear-gradient(135deg, #ff3300, #00ffcc); }
+      100% { background: linear-gradient(135deg, #ff00cc, #3333ff); }
+    }
+
+    h1 {
+      text-shadow: 2px 2px 5px #000
